@@ -42,7 +42,10 @@ end
 
 def add_s(array)
   array.each_with_index do |e, i|
-    puts e
-    puts i
+    if i == 1
+      e
+    else
+      e + "s"
+    end
   end
 end
